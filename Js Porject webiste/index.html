@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+            integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="style.css">
+        <title>Youtube Home-page</title>
+    </head>
+    <body>
+        <!-- todo Navbar Section Start   -->
+        <nav class="flex_div">
+            <div class="nav_left flex_div">
+                <img src="images/hamburger.png" class="openbtn" id="main">
+                <img src="images/Youtube-Logo.png" class="logo">
+            </div>
+            <div class="nav_middle flex_div">
+                <div class="search_box flex_div">
+                    <input type="search" placeholder="Search">
+                    <i class="fa-solid fa-magnifying-glass" style="color: #fff;"></i>
+                </div>
+                <i class="fa-solid fa-microphone"></i>
+            </div>
+            <div class="nav_right flex_div">
+                <img src="images/create.png">
+                <img src="images/Group.png">
+                <img src="images/Notifications.png">
+                <img src="images/Profile.png" class="user_icon">
+            </div>
+        </nav>
+        <!-- todo Navbar Section End   -->
+
+        <!-- todo Sidebar Section Start   -->
+        <div class="sidebar" id="mySidebar">
+            <div class="shortcut">
+
+                <a href><i class="fa-solid fa-house"></i><p>Home</p></a>
+                <a href><i class="fa-regular fa-compass"></i><p>Explore</p></a>
+                <a href><i class="fa-brands fa-square-youtube"></i><p>Subscription</p></a>
+                <a href><i class="fa-solid fa-book"></i><p>Library</p></a>
+                <a href><i class="fa-regular fa-clock"></i><p>History</p></a>
+                <a href><i class="fa-regular fa-circle-play"></i><p>Watch Later</p></a>
+                <a href><i class="fa-regular fa-thumbs-up"></i><p>Liked Videos</p></a>
+                <a href><i class="fa-solid fa-caret-down"></i><p id="showmore">Show More</p></a>
+                <hr>
+            </div>
+            <div class="subscription" id="subscribe">
+                <h3 class="navText" hidden>SUBCRIBED</h3>
+                <a href><img src="images/User-Avatar.png" alt><p >Kashan Adnan</p></a>
+                <a href><img src="images/Icon.png" alt><p >Thapa Technical</p></a>
+                <a href><img src="images/User-Avatar.png" alt><p >Izhan Farhan</p></a>
+                <a href><img src="images/Icon.png" alt><p >Almi Teaching</p></a>
+                <a href><img src="images/User-Avatar.png" alt><p >Codewithharry</p></a>
+            </div>
+        </div>
+        <!-- todo Sidebar Section End   -->
+        <div class="container">
+            <!-- <div class="banner">
+                <img src="images/image 1.png" alt>
+            </div> -->
+            <div class="list_container">
+                <!-- <div class="vid_list">
+                    <a href="../ChannelPage/index.html"><img src="images/image 1.png"
+                            class="thumbnail"></a>
+                    <div class="flex_div">
+                        <img src="images/User-Avatar.png">
+                        <div class="vid_info">
+                            <a href="#" style="color: #fff;">Best Channel To
+                                learn Coding That help
+                                you for the web devolopment</a>
+                            <p>Easy Tutorial</p>
+                            <p>15k views &bull; 3days</p>
+                        </div>
+                    </div>
+                </div> -->
+                 <!-- <div class="vid_list">
+                    <a href="#"><img src="images/image 1.png"
+                            class="thumbnail"></a>
+                    <div class="flex_div">
+                        <img src="images/User-Avatar.png">
+                        <div class="vid_info">
+                            <a href="#" style="color: #fff;">Best Channel To
+                                learn Coding That help
+                                you for the web devolopment</a>
+                            <p>Easy Tutorial</p>
+                            <p>15k views &bull; 3days</p>
+                        </div>
+                    </div>
+                </div>  -->
+                 <!-- <div class="vid_list">
+                    <a href="#"><img src="images/image 1.png"
+                            class="thumbnail"></a>
+                    <div class="flex_div">
+                        <img src="images/User-Avatar.png">
+                        <div class="vid_info">
+                            <a href="#" style="color: #fff;">Best Channel To
+                                learn Coding That help
+                                you for the web devolopment</a>
+                            <p>Easy Tutorial</p>
+                            <p>15k views &bull; 3days</p>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- <div class="vid_list">
+                    <a href="#"><img src="images/image 1.png"
+                            class="thumbnail"></a>
+                    <div class="flex_div">
+                        <img src="images/User-Avatar.png">
+                        <div class="vid_info">
+                            <a href="#" style="color: #fff;">Best Channel To
+                                learn Coding That help
+                                you for the web devolopment</a>
+                            <p>Easy Tutorial</p>
+                            <p>15k views &bull; 3days</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="vid_list"> 
+                    <a href="#"><img src="images/image 1.png"
+                            class="thumbnail"></a>
+                    <div class="flex_div">
+                        <img src="images/User-Avatar.png">
+                        <div class="vid_info">
+                            <a href="#" style="color: #fff;">Best Channel To
+                                learn Coding That help
+                                you for the web devolopment</a>
+                            <p>Easy Tutorial</p>
+                            <p>15k views &bull; 3days</p>
+                        </div>
+                    </div>
+                </div> -->
+
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+   
+</html>

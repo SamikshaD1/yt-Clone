@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #d8d2d2;
+}
+img {
+  cursor: pointer;
+}
+.flex_div {
+  display: flex;
+  align-items: center;
+}
+body {
+  background: var(--Background-Color, #212121);
+  color: #d8d2d2;
+}
+nav {
+  padding: 10px 2%;
+  justify-content: space-between;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background: var(--Background-Color, #212121);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.nav_right img {
+  width: 25px;
+  margin-right: 25px;
+}
+.nav_right .user_icon {
+  width: 35px;
+  border-radius: 50%;
+  margin-right: 0;
+}
+.nav_left .openbtn {
+  width: 22px;
+  margin-right: 25px;
+}
+.nav_left .logo {
+  width: 80px;
+  height: 17px;
+}
+.nav_middle .fa-microphone {
+  width: 50px;
+  color: #fff;
+  cursor: pointer;
+}
+.nav_middle .fa-microphone:hover {
+  transform: scale(1.1);
+}
+.nav_right img:hover {
+  transform: scale(1.2);
+}
+.nav_middle .search_box {
+  border: 1px solid #ccc;
+  margin-right: 15px;
+  padding: 8px 12px;
+  border-radius: 25px;
+}
+.nav_middle .search_box input {
+  width: 400px;
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  color: #fff;
+}
+.nav_middle .search_box img {
+  width: 15px;
+}
+
+/* main-section */
+.main {
+  display: flex;
+  justify-content:center;
+  flex-wrap: wrap;
+  gap: 1.5vw;
+  
+
+}
+.left {
+  /* width:500px; */
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+}
+/* .channel-video{
+  width: auto;
+} */
+.left-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.subscribed {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1.2vw;
+}
+.subscribed img {
+  border-radius: 50%;
+}
+
+#comment {
+  display: flex;
+  gap: 1.2vw;
+  padding: 24px 0px 32px 0px;
+}
+#comment img {
+  width: 40px;
+  height: 40px;
+}
+
+/* main right-section  */
+.right{
+    overflow-y: scroll;
+}
+.right::-webkit-scrollbar {
+    width: 0;
+  }
+.vid_list {
+  display: flex;
+  gap: 1vw;
+}
+.vid_list img {
+  width: 168px;
+  height: 94px;
+  flex-shrink: 0;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.vid_info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.vid_info a {
+  color: #fff;
+}

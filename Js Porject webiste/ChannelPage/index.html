@@ -1,0 +1,215 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+  <div class="youtube-channel">
+    <div class="channel-header">
+      <img src="/Images/User-Avatar.png" alt="YouTube Channel Logo">
+      <h1>Marcus Levin</h1>
+      <span>1.2M subscribers</span>
+    </div>
+    <div class="channel-nav">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Videos</a></li>
+        <li><a href="#">Playlists</a></li>
+        <li><a href="#">Community</a></li>
+        <li><a href="#">Channels</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </div>
+    <div class="channel-videos">
+      <div class="video-container">
+        <img src="/Images/Youtube player.png" alt="Blind Woodturner: Turning passion into fine art">
+        <div class="video-info">
+          <h3>Blind Woodturner: Turning passion into fine art</h3>
+          <p>Marcus Levin 1.2M subscribers</p>
+          <span>SUBSCRIBED</span>
+        </div>
+      </div>
+      <div class="video-container">
+        <img src="https://i.imgur.com/example.png" alt="James Gouse">
+        <div class="video-info">
+          <h3>James Gouse</h3>
+          <p>Chris Fisher, also known as the Blind Woodtumer, learned his craft by listening to hundreds of hours of YouTube videos and experimenting in his workshop. Now he's a YouTube creator himself, sells his products worldwide, and does demonstrations all around the country.</p>
+          <span>SUBSCRIBED</span>
+        </div>
+      </div>
+      <div class="video-container">
+        <img src="https://i.imgur.com/example.png" alt="Alan Cooper">
+        <div class="video-info">
+          <h3>Alan Cooper</h3>
+          <p>Alan Cooper is a pioneer in the field of user experience design. He is the author of the book "About Face: The Essentials of Interaction Design," which is considered to be the bible of UX design.</p>
+          <span>SUBSCRIBE</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="video-screenshot">
+    <img src="https://i.imgur.com/example.png" alt="Screenshot of a Video Being Played on a Computer">
+    <div class="video-info">
+      <h3>Blind Woodturner: Turning passion into fine art</h3>
+      <p>576,969 views, 3 weeks ago</p>
+      <span>Chris Fisher, also known as the Blind Woodturner, learned his craft by listening to hundreds of hours of YouTube videos and experimenting in his workshop. Now he's a YouTube creator himself, sells his products worldwide, and does demonstrations all around the country.</span>
+      <span>cc</span>
+    </div>
+  </div> 
+</body>
+</html> -->
+
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Channel Page</title>
+  </head> 
+  <body>
+     <!-- todo Navbar Section Start   -->
+    <nav class="flex_div">
+      <div class="nav_left flex_div">
+        <img src="/Images/hamburger.png" class="openbtn" id="main" onclick="openNav()">
+        <img src="/Images/Youtube-Logo.png" class="logo">
+      </div>
+      <div class="nav_middle flex_div">
+        <div class="search_box flex_div">
+          <input type="search" placeholder="Search">
+          <i class="fa-solid fa-magnifying-glass" style="color: #fff;"></i>
+        </div> 
+          <i class="fa-solid fa-microphone"></i>
+      </div>
+      <div class="nav_right flex_div">
+        <img src="/Images/create.png">
+        <img src="/Images/Group.png">
+        <img src="/Images/Notifications.png">
+        <img src="/Images/Profile.png" class="user_icon">
+      </div>
+    </nav>
+    <!-- todo Navbar Section End   -->
+
+    <!-- todo Sidebar Section Start   -->
+      <div class="sidebar" id="mySidebar">
+      <div class="shortcut"> 
+        <!-- <a href="javascript:void(0)"class="closebtn" id="close" onclick="closeNav()">×</a> -->
+         <a href><i class="fa-solid fa-house"></i><p>Home</p></a>
+        <a href><i class="fa-regular fa-compass"></i><p>Explore</p></a>
+        <a href><i class="fa-brands fa-square-youtube"></i><p>Subscription</p></a>
+        <a href><i class="fa-solid fa-book"></i><p>Library</p></a>
+        <a href><i class="fa-regular fa-clock"></i><p>History</p></a>
+        <a href><i class="fa-regular fa-circle-play"></i><p>Watch Later</p></a>
+        <a href><i class="fa-regular fa-thumbs-up"></i><p>Liked Videos</p></a>
+        <a href><i class="fa-solid fa-caret-down"></i><p id="showmore">Show
+            More</p></a>
+        <hr>
+      </div>
+      <div class="subscription" id="subscribe">
+        <h3>SUBCRIBED</h3>
+        <a href><img src="/Images/User-Avatar.png" alt><p>Kashan Adnan</p></a>
+        <a href><img src="/Images/Icon.png" alt><p>Thapa Technical</p></a>
+        <a href><img src="/Images/User-Avatar.png" alt><p>Izhan Farhan</p></a>
+        <a href><img src="/Images/Icon.png" alt><p>Almi Teaching</p></a>
+        <a href><img src="/Images/User-Avatar.png" alt><p>Codewithharry</p></a>
+      </div>
+    </div>  
+    <!-- todo Sidebar Section End   -->
+    <section class="container">
+      <div class="banner">
+        <img src="/Images/Channel-Cover.png" alt>
+      </div>
+      <div class="subscribed">
+        <div style="display: flex;align-items: center;gap: 1vw;">
+          <div>
+            <img src="/ChannelPage/channel-image/Avatar1.png" alt="img">
+          </div>
+          <div>
+            <p style="color: #fff;">Marcus Levin</p>
+            <p>1.2M subscribers</p>
+          </div>
+        </div>
+        <button
+          style="width: 116px; height: 36px;border-radius: 3px;border: none;
+        background: #C00;">Subscribes</button>
+      </div>
+      <div class="list">
+        <a href>Home</a>
+        <a href>videos</a>
+        <a href>playlists</a>
+        <a href>Community</a>
+        <a href>channels</a>
+        <a href>about</a>
+      </div>
+      <div class="player">
+        <img src="/Images/Youtube player.png">
+        <div class="player-info">
+          <h1>Blind Woodturner: Turning passion into fine art</h1>
+          <h6>576,969 views . 3 weeks ago</h6>
+          <p style="max-width: 500px;">Chris Fisher, also known as the Blind
+            Woodturner, learned his craft
+            by listening to hundreds of hours of YouTube videos and
+            experimenting in his workshop. Now he’s a YouTube creator himself,
+            sells his products worldwide, and does demonstrations all around the
+            country.</p>
+        </div>
+      </div>
+      <div class="list_container">
+        <div class="vid_list">
+          <a href="#"><img src="/Images/image 1.png"
+              class="thumbnail"></a>
+          <div class="flex_div">
+            <div class="vid_info">
+              <a href="#" style="color: #fff;">Best Channel To
+                learn Coding That help
+                you for the web devolopment</a>
+              <p>Easy Tutorial</p>
+              <p>15k views &bull; 3days</p>
+            </div>
+          </div>
+        </div>
+        <div class="vid_list">
+          <a href="#"><img src="/Images/image 1.png"
+              class="thumbnail"></a>
+          <div class="flex_div">
+            <div class="vid_info">
+              <a href="#" style="color: #fff;">Best Channel To
+                learn Coding That help
+                you for the web devolopment</a>
+              <p>Easy Tutorial</p>
+              <p>15k views &bull; 3days</p>
+            </div>
+          </div>
+        </div>
+        <div class="vid_list">
+          <a href="#"><img src="/Images/image 1.png"
+              class="thumbnail"></a>
+          <div class="flex_div">
+            <div class="vid_info">
+              <a href="#" style="color: #fff;">Best Channel To
+                learn Coding That help
+                you for the web devolopment</a>
+              <p>Easy Tutorial</p>
+              <p>15k views &bull; 3days</p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+  </body>
+  <script src="script.js"></script>
+</html> 
